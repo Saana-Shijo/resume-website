@@ -2,80 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Saana Shijo - Resume</title>
   <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
+  <div class="container">
+    <!-- Left panel -->
+    <aside class="left-panel">
+      <img src="profile.jpg" alt="Profile Photo" />
+      <h1>Saana Shijo</h1>
+      <h2>Student | Dual Degree - BE &amp; BBA</h2>
 
-  <header>
-    <h1>Saana Shijo</h1>
-    <p>Student</p>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+      <section id="about">
+        <h3>About Me</h3>
+        <p>
+          Motivated student with a strong foundation in technology and management, passionate about contributing to organizations to define their product portfolios and strategies.
+Eager to learn, grow, and make meaningful contributions in dynamic environments.
+        </p>
+      </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm Saana, a passionate and ambitious student currently pursuing dual degrees in engineering and business. I enjoy learning new languages and engaging in public speaking and leadership activities.</p>
-    <img src="profile.jpg" alt="Profile Picture" width="150" />
-  </section>
+      <section id="contact">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: saana.shijo@gmail.com</li>
+          <li>Phone: +91 97405 74859</li>
+        </ul>
+      </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li>BE in Electronics and Communication - RV College of Engineering (2024 - 2028)<br />CGPA: 9.6</li>
-      <li>BBA in Digital Business and Entrepreneurship - IIM Bangalore (2024 - 2027)</li>
-    </ul>
-  </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>English, Malayalam (Fluent)</li>
+          <li>Korean, Hindi, Kannada, Tamil (Conversational)</li>
+          <li>German, French (Basic)</li>
+        </ul>
+      </section>
+    </aside>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming(Python, Java, C, C++, HTML)</li>
-      <li>Proficiency in Microsoft Office</li>
-      <li>Leadership</li>
-      <li>Public Speaking</li>
-    </ul>
-  </section>
+    <!-- Right panel -->
+    <main class="right-panel">
+      <section id="education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <strong>RV College of Engineering, Bangalore</strong> – Bachelor of
+            Engineering in Electronics and Communication (2024 – 2028)
+          </li>
+          <li>
+            <strong>Indian Institute of Management Bangalore</strong> – Bachelor
+            of Business Administration in Digital Business and Entrepreneurship
+            (2024 – 2027)
+          </li>
+        </ul>
+      </section>
 
-  <section id="languages">
-    <h2>Languages</h2>
-    <ul>
-      <li>English, Malayalam (Fluent)</li>
-      <li>Korean, Hindi, Kannada, Tamil (Conversational)</li>
-      <li>German, French (Basic)</li>
-    </ul>
-  </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <ul>
+          <li>
+            <strong>Apartment Management System</strong> – Developed an application using Python and Tkinter to help apartment complexes efficiently manage visitor logs, events, complaints, and other community activities 
+          </li>
+          <li>
+            <strong>Turnstile Turbine</strong> – A prototype developed to
+            harness commuter energy in metro stations, focusing on converting
+            kinetic energy into alternating current.
+          </li>
+        </ul>
+      </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Phone: 97405*****</p>
-    <p>Email: <a href="mailto:saana.shijo@gmail.com">saana.shijo@gmail.com</a></p>
-    <form action="#">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" /><br />
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li><strong>Software Tools:</strong> Microsoft Office, MATLAB, VSCode</li>
+          <li><strong>Programming:</strong> Python, Java, C, C++, HTML</li>
+          <li><strong>Engineering Tools:</strong> CAD, SolidWorks</li>
+          <li><strong>Project Management Tools:</strong> Trello</li>
+          <li><strong>Database Management:</strong> SQL</li>
+          <li>
+            <strong>Other Skills:</strong> Team Building, Leadership, Critical Thinking,
+            Marketing, Presentation Skills, Media Strategist and Brand
+            Development
+          </li>
+        </ul>
+      </section>
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" /><br />
+      <section id="interests">
+        <h3>Interests</h3>
+        <ul>
+          <li>Sports, Cooking, Reading, Driving, Coordinating activities</li>
+        </ul>
+      </section>
 
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4"></textarea><br />
-
-      <button type="submit">Send</button>
-    </form>
-  </section>
+      <section id="achievements">
+        <h3>Achievements</h3>
+        <ul>
+          <li>• State level Basketball player</li>
+          <li>• Ranked 1st in school in grade 12 (97.4%)</li>
+          <li>• Ranked 3rd in school in grade 10 (98.6%)</li>
+        </ul>
+      </section>
+    </main>
+  </div>
 
   <footer>
-    <p>© 2025 Saana Shijo. All rights reserved.</p>
+    <p>&copy; 2025 Saana Shijo</p>
   </footer>
-
 </body>
 </html>
